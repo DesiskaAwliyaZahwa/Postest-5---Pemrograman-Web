@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <style>
+    body {
+    background:linear-gradient(#CC8B79, #714674, #9F6976);
+    background-repeat: repeat;
+    }
+
+    h1 {
+    padding: 13px;
+    text-align: center;
+    color: black;
+    }
+
+    #kotak {
+    background-image: url(awan.jpg);
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 400px;
+    margin: 0rem auto 0rem auto;
+    width: 350px;
+    }
+
+    #kotak-content {
+    padding: 12px 44px;
+    }
+
+    .form {
+    padding-top: 15px;
+    font-family: Times New Roman ;
+    }
+
+    .simpanSandi {
+    color: coral;
+    }
+
+    .submit-login {
+    background: green;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 24.5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    }
+
+    .submit-reset {
+    background: red;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 24.5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    }
+
+    .lupa {
+    text-align: center;
+    }
+    </style>
+    <body>
+        <h1>LOGIN</h1>
+        <div id="kotak">
+        <div id="kotak-content">
+            <form method="POST" class="form">
+                <tr>
+                    <td<td>Username</td><td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Password</td><td>:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+            </form>
+        <br>
+        <br>
+            <p class="simpanSandi">
+            <input type="checkbox">simpan kata sandi</p>
+            <br>
+            <br>
+            &nbsp; &nbsp; 
+            <td>
+            <input class="submit-login" type="submit" name="login" value="Login">
+            <a href="http://localhost/desiska/postest/hoome.html"></a>
+            &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input class="submit-reset" type="reset" name="reset" value="Reset">
+            </td>
+            <br><br>
+            <br><br>
+            <br>
+            <p class="lupa">Lupa Password ? <a href="#">Reset Disini !</a></p>
+            <p class="lupa">Belum punya akun ? <a href="http://localhost/desiska/postest/pendaftaran.html">Daftar sini !</a></p>
+        </div>
+        </div>
+    </body>
+</html>
