@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>POSTEST</title>
-</head>
-<body bgcolor="lightgreen">
-	<table align="center" width="900" border="1" border="1" cellpadding="4" cellspacing="4">
-		<th colspan="5"><img src="daun.jpg" width="900" height="100" align="center"></th>
-		<tr>
-			<td width="150px"><a href="https://www.instagram.com/desiskaawliya/" target="-blank">:: Link 1 </a>
-				<p><a href="http://localhost/desiska/postest/home.html/" target="-blank">:: Link 2</a>
-				</p>
-				<p><a href="http://localhost/desiska/postest/about.html" target="-blank">:: Link 3</a>
-				</p>
-			</td>
-			<td width="550px" align="left" colspan="1">
-				<ul>
-					<li>Nama &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Desiska Awliya Zahwa</li>
-					<li>NIM &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: 1900018147</li>
-					<li>Fakultas &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Teknologi Industri</li>
-					<li>Program Studi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Teknik Informatika</li>
-					<li>Jenjang &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: S-1</li>
-					<li>Tempat,Tanggal Lahir : Bantul 8 Desember 2000</li>
-					<li>Jenis Kelamin &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Perempuan</li>
-					<li>Alamat &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Gawanan Timur
-						<ol>RT/RW &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: 02/07 </ol>
-						<ol>Kel/Desa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Gawanan </ol>
-						<ol>Kecamatan &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Colomadu </ol>
-						<ol>Kabupaten &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Karanganyar </ol>
-						<ol>Provinsi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Jawa Tengah </ol>
-					</li>
-					<li>Pekerjaan &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Mahasiswa</li>
-					<li>Kewarganegaraan &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Indonesia</li>
-				</ul>
-			</td>
-			<td>	
-			</td>
-				<tr>
-					<td colspan="5" align="center"><img src="daun.jpg" width="900" height="100" align="center"></td>
-				</tr>
-		</tr>
-	</table>
-</body>
+    <head>
+        <title>Pendaftaran</title>
+    </head>
+    <style>
+        body {
+        background:linear-gradient(#CC8B79, #714674, #9F6976);
+        background-repeat: repeat;
+        }
+    
+        h1 {
+        padding: 13px;
+        text-align: center;
+        color: black;
+        }
+
+        #kotak {
+        background-image: url(awan.jpg);
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 530px;
+        margin: 0rem auto 0rem auto;
+        width: 600px;
+        }
+
+        #kotak-content {
+        padding: 12px 44px;
+        }
+
+        .form {
+        padding-top: 15px;
+        font-family: Times New Roman ;
+        }
+
+        .bukanRobot {
+        color: coral;
+        }
+
+        .save {
+        background: green;
+        border: none;
+        border-radius: 21px;
+        cursor: pointer;
+        color: white;
+        font-family: "Raleway SemiBold", sans-serif;
+        height: 24.5px;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 100px;
+        position: relative;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+    </style>
+    <body>
+        <h1>PENDAFTARAN</h1>
+        <div id="kotak">
+        <div id="kotak-content">
+            <form method="POST" class="form">
+                <tr id="nama">
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;FIRST NAME</td>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    <td>LAST NAME</td>
+                </tr>
+                <p>
+                <tr>
+                    <td><input type="text" name="nama"></td>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                </p>
+                <tr>
+                    <td>Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</td><input type="text" name="email">
+                <p>
+                    <td>Password &nbsp; &nbsp; &nbsp; :</td><input type="password" name="password">
+                </p>
+                <p>
+                    <td>Konfirmasi &nbsp; &nbsp; :</td><input type="password" name="password">
+                    <br>Password
+                </p>
+                <p>
+                    <td>NO HP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</td><input type="text" name="noHP">
+                </p>
+                <p>
+                    <td>ID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</td><input type="text" name="id">
+                </p>
+                </tr>
+            </form>
+        <br>
+        <p class="bukanRobot">
+            <input type="checkbox">SAYA BUKAN ROBOT</p>
+            <button class="save" onclick="window.location.href='http://localhost/desiska/postest/postest671.html'">SIMPAN</button>
+        </div>
+        </div>        
+    </body>
 </html>
